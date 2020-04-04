@@ -4,7 +4,7 @@
 </p>
 
 ## Demo
-First Header | Second Header
+Android App | Admin Panel
 ------------ | -------------
 ![alt text](ss_app.png) | ![alt text](post_web.png)
 
