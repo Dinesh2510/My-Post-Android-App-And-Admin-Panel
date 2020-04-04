@@ -1,8 +1,7 @@
 # My-Post-Android-App-and-Admin-Panel
 <p align="center">
-  <img width="100" height="100" src="https://i.imgur.com/NfOfrfj.jpg">
+  <img width="220" height="200" src="https://i.imgur.com/3DkD3lk.jpg">
 </p>
-
 ## Demo
 Android App | Admin Panel
 ------------ | -------------
