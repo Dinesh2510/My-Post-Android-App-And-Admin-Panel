@@ -1,4 +1,4 @@
-# My Post Android App and Admin Panel
+# My Post Android App and Admin Panel (Blog Posting App)
 <p align="center">
   <img width="220" height="200" src="https://i.imgur.com/3DkD3lk.jpg">
 </p>
