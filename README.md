@@ -4,7 +4,7 @@
 </p>
 
 ## Demo
-Android App | Admin Panel
+<button>[Download Android App](https://github.com/Dinesh2510/My-Post-Android-App-And-Admin-Panel/raw/master/app-debug.apk) </button>  | Admin Panel
 ------------ | -------------
 ![alt text](ss_app.png) | ![alt text](post_web.png)
 
