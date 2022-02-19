@@ -85,7 +85,7 @@ public class HomeFragment extends Fragment {
 
 
     private void LoadPosts() {
-        String GET_POST_LIST = "http://192.168.43.207/adview/GetAllPostList.php";
+        String GET_POST_LIST = "https://pixeldev.in/webservices/mypost/GetAllPostList.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, GET_POST_LIST,
                 new Response.Listener<String>() {
                     @Override

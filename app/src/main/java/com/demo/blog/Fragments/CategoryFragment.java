@@ -85,7 +85,7 @@ public class CategoryFragment extends Fragment {
     }
 
     private void LoadCategory() {
-        String GET_POST_LIST = "http://192.168.43.207/adview/GetAllCategoryList.php";
+        String GET_POST_LIST = "https://pixeldev.in/webservices/mypost/GetAllCategoryList.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, GET_POST_LIST,
                 new Response.Listener<String>() {
                     @Override

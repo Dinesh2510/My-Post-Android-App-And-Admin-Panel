@@ -83,27 +83,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
         if (id == R.id.nav_home) {
 
-            Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
 
 
         } else if (id == R.id.nav_trending) {
-            Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
 
 
         } else if (id == R.id.nav_latest) {
-            Toast.makeText(this, "3", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "3", Toast.LENGTH_SHORT).show();
 
 
         } else if (id == R.id.nav_highlight) {
-            Toast.makeText(this, "4", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "4", Toast.LENGTH_SHORT).show();
 
 
         } else if (id == R.id.nav_settings) {
-            Toast.makeText(this, "5", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "5", Toast.LENGTH_SHORT).show();
 
 
         } else if (id == R.id.nav_help) {
-            Toast.makeText(this, "6", Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(this, "6", Toast.LENGTH_SHORT).show();
 
 
         }

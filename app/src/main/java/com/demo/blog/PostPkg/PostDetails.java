@@ -66,7 +66,7 @@ public class PostDetails extends AppCompatActivity {
         txt_Date.setText(Date);
 
         Glide.with(this)
-                .load("http://192.168.43.207/adview/admin/" + Image)
+                .load("https://pixeldev.in/webservices/mypost/Admin/admin/" + Image)
                 .apply(RequestOptions.bitmapTransform(new RoundedCorners(50)))
                 .placeholder(R.drawable.placeholder)
                 .transition(withCrossFade(factory))

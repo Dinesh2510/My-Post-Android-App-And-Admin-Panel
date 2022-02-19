@@ -87,7 +87,7 @@ public class CategoryPostList extends AppCompatActivity {
 
     private void LoadCategoryPosts() {
         progress_horizontal.setVisibility(View.VISIBLE);
-        String GET_POST_LIST = "http://192.168.43.207/adview/GetAllCategoryPostList.php";
+        String GET_POST_LIST = "https://pixeldev.in/webservices/mypost/GetAllCategoryPostList.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, GET_POST_LIST,
                 new Response.Listener<String>() {
                     @Override

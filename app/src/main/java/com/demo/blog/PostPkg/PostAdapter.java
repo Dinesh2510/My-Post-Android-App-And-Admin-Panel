@@ -45,10 +45,10 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
                 new DrawableCrossFadeFactory.Builder().setCrossFadeEnabled(true).build();
         final Post post = posts.get(position);
         holder.Post_Title.setText(post.getPost_title());
-        Log.d("_image_a", "onCreate: " + "http://192.168.43.137/adview/admin/" + post.getPost_image());
+        Log.d("_image_a", "onCreate: " + "https://pixeldev.in/webservices/mypost/Admin/admin/post_images/" + post.getPost_image());
 
         Glide.with(mCtx)
-                .load("http://192.168.43.207/adview/admin/" + post.getPost_image())
+                .load("https://pixeldev.in/webservices/mypost/Admin/admin/" + post.getPost_image())
                 .apply(RequestOptions.bitmapTransform(new RoundedCorners(50)))
                 .placeholder(R.drawable.placeholder)
                 .transition(withCrossFade(factory))
