@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:name="com.demo.blog.PostPkg.AppController"
@@ -18,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <receiver android:name="com.demo.blog.NewAppWidget">
+        <receiver  android:exported="true" android:name="com.demo.blog.NewAppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -28,13 +27,15 @@
                 android:resource="@xml/new_app_widget_info" />
         </receiver>
 
-        <activity android:name="com.demo.blog.Activites.CategoryPostList" />
+        <activity  android:exported="false" android:name="com.demo.blog.Activites.CategoryPostList" />
         <activity
+            android:exported="false"
             android:name="com.demo.blog.PostPkg.PostDetails"
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.demo.blog.MainActivity"
-            android:configChanges="uiMode">
+            android:configChanges="uiMode"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -4,10 +4,9 @@
 </p>
 
 ## Demo
-<button>[Download Android App](https://github.com/Dinesh2510/My-Post-Android-App-And-Admin-Panel/raw/master/app-debug.apk) </button>  | Admin Panel
------------- | -------------
-![alt text](ss_app.png) | ![alt text](post_web.png)
-
+| <button>[Download Android App](https://github.com/Dinesh2510/My-Post-Android-App-And-Admin-Panel/raw/master/app-debug.apk) </button> | Admin Panel               |
+|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| ![alt text](ss_app.png)                                                                                                              | ![alt text](post_web.png) |
 
 ## Android App (version 1.0)
 - List Of Post 
