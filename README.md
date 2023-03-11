@@ -8,10 +8,8 @@
 
 | <button>[Download Android App](https://github.com/Dinesh2510/My-Post-Android-App-And-Admin-Panel/raw/master/app-debug.apk) </button> | Admin Panel               |
 |--------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| ![alt text](ss_app.png)                                                                                                              | ![alt text](post_web.png) |
+| <img src="ss_app.png" width="350" height="600">                                                                                      | ![alt text](post_web.png) |
 
-## DEMO VIDEO
-![alt text](app_video.mp4)
 
 ## Android App (version 1.1)
 
