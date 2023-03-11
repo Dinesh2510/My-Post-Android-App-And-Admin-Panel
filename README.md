@@ -49,4 +49,7 @@
 
 Enjoy! We're always happy to hear your feedback.
 
-
+## Note :
+There are two Branches Main and Master (Recommend to use Main Branch)
+- Main - Updated app with new UI & updated library like Retrofit
+- Master - Old UI with Volley library
