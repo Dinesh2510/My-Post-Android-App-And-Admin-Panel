@@ -1,0 +1,53 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="AppDarkTheme" parent="BaseDarkTheme" />
+
+    <style name="BaseTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundLight</item>
+        <item name="actionBarTheme">@style/ToolBarTheme</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="BaseDarkTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+        <item name="actionBarTheme">@style/ToolBarDarkTheme</item>
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorBlack</item>
+    </style>
+
+    <style name="ToolBarDarkTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="ToolbarFontStyle" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/custom_font</item>
+    </style>
+
+</resources>

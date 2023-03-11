@@ -1,0 +1,64 @@
+<resources>
+
+    <!--application name-->
+    <string name="app_name">My Lekh</string>
+
+    <!--bottom navigation title-->
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_recent">Posts</string>
+    <string name="title_nav_category">Category</string>
+
+    <!--home menu-->
+    <string name="home_title_recent">Posts</string>
+
+    <!--settings-->
+    <string name="title_setting_theme">Dark Theme</string>
+    <string name="sub_title_setting_theme">Better for eyesight and battery life</string>
+
+    <string name="title_setting_list">Display Category</string>
+
+    <string name="title_setting_recipes">Display Recipes</string>
+    <string name="single_choice_list_small">List (small)</string>
+    <string name="single_choice_list_big">List (big)</string>
+    <string name="single_choice_grid_2">Grid (2 column)</string>
+    <string name="single_choice_grid_3">Grid (3 column)</string>
+
+    <string name="title_setting_privacy">Privacy Policy</string>
+    <string name="sub_title_setting_privacy">App Terms &amp; Policies</string>
+    <string name="title_setting_rate">Rate Us</string>
+    <string name="sub_title_setting_rate">Leave a review on the Google Play</string>
+    <string name="title_setting_more">More Apps</string>
+    <string name="sub_title_setting_more">More apps from developer</string>
+    <string name="title_setting_about">About</string>
+    <string name="sub_title_setting_about">App Info, Build Version, Copyright</string>
+    <string name="sub_about_app_version">Version</string>
+    <string name="sub_about_app_copyright">Copyright &#169; 2023 PixelDev \n All rights reserved</string>
+
+    <!--network & error message-->
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">there is something problem with your network or the server is currently down, please try it again later.</string>
+    <string name="no_category_found">it looks like there are no category available at this time</string>
+    <string name="msg_no_item">it looks like there are no content available at this time.</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!--favorite-->
+
+    <string name="filter">Filter</string>
+    <string name="dialog_title_filter">Filter Recipes :</string>
+    <string name="filter_show_all">All Recipes</string>
+    <string name="filter_show_recipes">Recipes Posts</string>
+    <string name="filter_show_videos">Recipes Videos</string>
+
+    <!--package validation-->
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+
+    <!--others-->
+    <string name="share_text">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
+    <string name="btn_retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="title_menu_browser">Open in Browser</string>
+    <string name="press_again_to_exit">Press again to exit app</string>
+
+</resources>

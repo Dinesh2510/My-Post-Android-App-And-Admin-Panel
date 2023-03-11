@@ -1,0 +1,88 @@
+plugins {
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdkVersion 32
+    defaultConfig {
+        applicationId "com.app.mylekh"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.1"
+        multiDexEnabled true
+    }
+    buildTypes {
+        def STRING = "String"
+        def BASE_URL = "BASE_URL"
+
+        debug {
+            buildConfigField STRING, BASE_URL, "${BASE_URL_DEBUG}"
+        }
+        release {
+            buildConfigField STRING, BASE_URL, "${BASE_URL_RELEASE}"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        disable 'GradleDependency'
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+/* IMPORTANT : Highly recommended to keep the library version
+Be careful when update dependencies, different library version may caused error */
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //google support library
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.android.gms:play-services-ads-lite:20.4.0'
+
+    //analytics
+    implementation platform('com.google.firebase:firebase-bom:28.2.0')
+    implementation 'com.google.firebase:firebase-analytics'
+
+
+
+    //notification
+    implementation 'com.onesignal:OneSignal:4.4.1'
+
+    //image library
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    //exoplayer
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.14.2'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.14.2'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.14.2'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.14.2'
+    implementation 'com.google.android.exoplayer:exoplayer-rtsp:2.14.2'
+
+    //rest API
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+
+    //shimmer effect
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'

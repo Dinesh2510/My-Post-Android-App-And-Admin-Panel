@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dialog_recipes_list">
+        <item>@string/single_choice_list_small</item>
+        <item>@string/single_choice_list_big</item>
+        <item>@string/single_choice_grid_2</item>
+        <item>@string/single_choice_grid_3</item>
+    </string-array>
+
+    <string-array name="dialog_filter_list">
+        <item>@string/filter_show_all</item>
+        <item>@string/filter_show_recipes</item>
+        <item>@string/filter_show_videos</item>
+    </string-array>
+
+</resources>

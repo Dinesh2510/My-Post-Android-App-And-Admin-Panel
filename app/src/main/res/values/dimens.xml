@@ -1,0 +1,17 @@
+<resources>
+
+    <dimen name="grid_space_recipes">6dp</dimen>
+    <dimen name="recycler_item_size">192dp</dimen>
+
+    <dimen name="text_title_size">15sp</dimen>
+    <dimen name="text_sub_title_size">13sp</dimen>
+    <dimen name="text_content_title_size">18sp</dimen>
+    <dimen name="text_content_sub_title_size">14sp</dimen>
+
+    <dimen name="spacing_small">5dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+
+    <dimen name="img_thumbnail_video_size">54dp</dimen>
+
+</resources>
